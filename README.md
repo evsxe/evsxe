@@ -1,6 +1,5 @@
-### Hi there 👋
-
-**evsxe/evsxe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Hi, my name is Evgeniy 👋
+<h2><img height="30px" width="30px"</img>Hi, my name is Evgeniy 👋 </h2><hr style='background-color:#e67e22;border-width:0;color:#000000;height:8px;line-height:0;text-align:left;width:50%;'/> <blockquote> I'm a software developer who enjoys building creative things. </blockquote> <ul> 
 
 Here are some ideas to get you started:
 
