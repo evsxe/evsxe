@@ -1,8 +1,9 @@
 
 <h2>Hi, my name is Evgeniy 👋 </h2><hr style='background-color:#e67e22;border-width:0;color:#000000;height:8px;line-height:0;text-align:left;width:50%;'/> <blockquote> I'm a software developer who enjoys building creative things. </blockquote> <ul> 
 
-Here are some ideas to get you started:
 
+  <li><span style="font-size: 150%" class="darkmode-ignore">💼&nbsp;</span><span class="itemline" id="job"><span class="new-box">iOS Developer @ FARFETCH (outsourced by PTC) &nbsp;<br/><sup> started <span style="line-height: 50%;" class="timeText"><small class="text-muted">192 days ago </small></span></sup></span></span></li>
+  
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
