@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC928886280CA45600B0A4B1 /* My_Card_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC928885280CA45600B0A4B1 /* My_Card_AppApp.swift */; };
+		DC928888280CA45600B0A4B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC928887280CA45600B0A4B1 /* ContentView.swift */; };
+		DC92888A280CA45700B0A4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC928889280CA45700B0A4B1 /* Assets.xcassets */; };
+		DC92888D280CA45700B0A4B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC92888C280CA45700B0A4B1 /* Preview Assets.xcassets */; };
+		DC928897280CA45700B0A4B1 /* My_Card_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC928896280CA45700B0A4B1 /* My_Card_AppTests.swift */; };
+		DC9288A1280CA45700B0A4B1 /* My_Card_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9288A0280CA45700B0A4B1 /* My_Card_AppUITests.swift */; };
+		DC9288A3280CA45700B0A4B1 /* My_Card_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9288A2280CA45700B0A4B1 /* My_Card_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC928893280CA45700B0A4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC92887A280CA45600B0A4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC928881280CA45600B0A4B1;
+			remoteInfo = "My Card App";
+		};
+		DC92889D280CA45700B0A4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC92887A280CA45600B0A4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC928881280CA45600B0A4B1;
+			remoteInfo = "My Card App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC928882280CA45600B0A4B1 /* My Card App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Card App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC928885280CA45600B0A4B1 /* My_Card_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Card_AppApp.swift; sourceTree = "<group>"; };
+		DC928887280CA45600B0A4B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC928889280CA45700B0A4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC92888C280CA45700B0A4B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC928892280CA45700B0A4B1 /* My Card AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Card AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC928896280CA45700B0A4B1 /* My_Card_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Card_AppTests.swift; sourceTree = "<group>"; };
+		DC92889C280CA45700B0A4B1 /* My Card AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Card AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9288A0280CA45700B0A4B1 /* My_Card_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Card_AppUITests.swift; sourceTree = "<group>"; };
+		DC9288A2280CA45700B0A4B1 /* My_Card_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Card_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC92887F280CA45600B0A4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92888F280CA45700B0A4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC928899280CA45700B0A4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC928879280CA45600B0A4B1 = {
+			isa = PBXGroup;
+			children = (
+				DC928884280CA45600B0A4B1 /* My Card App */,
+				DC928895280CA45700B0A4B1 /* My Card AppTests */,
+				DC92889F280CA45700B0A4B1 /* My Card AppUITests */,
+				DC928883280CA45600B0A4B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC928883280CA45600B0A4B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC928882280CA45600B0A4B1 /* My Card App.app */,
+				DC928892280CA45700B0A4B1 /* My Card AppTests.xctest */,
+				DC92889C280CA45700B0A4B1 /* My Card AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC928884280CA45600B0A4B1 /* My Card App */ = {
+			isa = PBXGroup;
+			children = (
+				DC928885280CA45600B0A4B1 /* My_Card_AppApp.swift */,
+				DC928887280CA45600B0A4B1 /* ContentView.swift */,
+				DC928889280CA45700B0A4B1 /* Assets.xcassets */,
+				DC92888B280CA45700B0A4B1 /* Preview Content */,
+			);
+			path = "My Card App";
+			sourceTree = "<group>";
+		};
+		DC92888B280CA45700B0A4B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC92888C280CA45700B0A4B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC928895280CA45700B0A4B1 /* My Card AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC928896280CA45700B0A4B1 /* My_Card_AppTests.swift */,
+			);
+			path = "My Card AppTests";
+			sourceTree = "<group>";
+		};
+		DC92889F280CA45700B0A4B1 /* My Card AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9288A0280CA45700B0A4B1 /* My_Card_AppUITests.swift */,
+				DC9288A2280CA45700B0A4B1 /* My_Card_AppUITestsLaunchTests.swift */,
+			);
+			path = "My Card AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC928881280CA45600B0A4B1 /* My Card App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9288A6280CA45700B0A4B1 /* Build configuration list for PBXNativeTarget "My Card App" */;
+			buildPhases = (
+				DC92887E280CA45600B0A4B1 /* Sources */,
+				DC92887F280CA45600B0A4B1 /* Frameworks */,
+				DC928880280CA45600B0A4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Card App";
+			productName = "My Card App";
+			productReference = DC928882280CA45600B0A4B1 /* My Card App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC928891280CA45700B0A4B1 /* My Card AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9288A9280CA45700B0A4B1 /* Build configuration list for PBXNativeTarget "My Card AppTests" */;
+			buildPhases = (
+				DC92888E280CA45700B0A4B1 /* Sources */,
+				DC92888F280CA45700B0A4B1 /* Frameworks */,
+				DC928890280CA45700B0A4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC928894280CA45700B0A4B1 /* PBXTargetDependency */,
+			);
+			name = "My Card AppTests";
+			productName = "My Card AppTests";
+			productReference = DC928892280CA45700B0A4B1 /* My Card AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC92889B280CA45700B0A4B1 /* My Card AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9288AC280CA45700B0A4B1 /* Build configuration list for PBXNativeTarget "My Card AppUITests" */;
+			buildPhases = (
+				DC928898280CA45700B0A4B1 /* Sources */,
+				DC928899280CA45700B0A4B1 /* Frameworks */,
+				DC92889A280CA45700B0A4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC92889E280CA45700B0A4B1 /* PBXTargetDependency */,
+			);
+			name = "My Card AppUITests";
+			productName = "My Card AppUITests";
+			productReference = DC92889C280CA45700B0A4B1 /* My Card AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC92887A280CA45600B0A4B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DC928881280CA45600B0A4B1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DC928891280CA45700B0A4B1 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DC928881280CA45600B0A4B1;
+					};
+					DC92889B280CA45700B0A4B1 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DC928881280CA45600B0A4B1;
+					};
+				};
+			};
+			buildConfigurationList = DC92887D280CA45600B0A4B1 /* Build configuration list for PBXProject "My Card App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC928879280CA45600B0A4B1;
+			productRefGroup = DC928883280CA45600B0A4B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC928881280CA45600B0A4B1 /* My Card App */,
+				DC928891280CA45700B0A4B1 /* My Card AppTests */,
+				DC92889B280CA45700B0A4B1 /* My Card AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC928880280CA45600B0A4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC92888D280CA45700B0A4B1 /* Preview Assets.xcassets in Resources */,
+				DC92888A280CA45700B0A4B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC928890280CA45700B0A4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92889A280CA45700B0A4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC92887E280CA45600B0A4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC928888280CA45600B0A4B1 /* ContentView.swift in Sources */,
+				DC928886280CA45600B0A4B1 /* My_Card_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92888E280CA45700B0A4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC928897280CA45700B0A4B1 /* My_Card_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC928898280CA45700B0A4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9288A3280CA45700B0A4B1 /* My_Card_AppUITestsLaunchTests.swift in Sources */,
+				DC9288A1280CA45700B0A4B1 /* My_Card_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC928894280CA45700B0A4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC928881280CA45600B0A4B1 /* My Card App */;
+			targetProxy = DC928893280CA45700B0A4B1 /* PBXContainerItemProxy */;
+		};
+		DC92889E280CA45700B0A4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC928881280CA45600B0A4B1 /* My Card App */;
+			targetProxy = DC92889D280CA45700B0A4B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC9288A4280CA45700B0A4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC9288A5280CA45700B0A4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9288A7280CA45700B0A4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"My Card App/Preview Content\"";
+				DEVELOPMENT_TEAM = J5SSBMFYL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSTY.My-Card-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9288A8280CA45700B0A4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"My Card App/Preview Content\"";
+				DEVELOPMENT_TEAM = J5SSBMFYL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSTY.My-Card-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC9288AA280CA45700B0A4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5SSBMFYL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSTY.My-Card-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Card App.app/My Card App";
+			};
+			name = Debug;
+		};
+		DC9288AB280CA45700B0A4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5SSBMFYL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSTY.My-Card-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Card App.app/My Card App";
+			};
+			name = Release;
+		};
+		DC9288AD280CA45700B0A4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5SSBMFYL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSTY.My-Card-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Card App";
+			};
+			name = Debug;
+		};
+		DC9288AE280CA45700B0A4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5SSBMFYL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PSTY.My-Card-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Card App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC92887D280CA45600B0A4B1 /* Build configuration list for PBXProject "My Card App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9288A4280CA45700B0A4B1 /* Debug */,
+				DC9288A5280CA45700B0A4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9288A6280CA45700B0A4B1 /* Build configuration list for PBXNativeTarget "My Card App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9288A7280CA45700B0A4B1 /* Debug */,
+				DC9288A8280CA45700B0A4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9288A9280CA45700B0A4B1 /* Build configuration list for PBXNativeTarget "My Card AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9288AA280CA45700B0A4B1 /* Debug */,
+				DC9288AB280CA45700B0A4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9288AC280CA45700B0A4B1 /* Build configuration list for PBXNativeTarget "My Card AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9288AD280CA45700B0A4B1 /* Debug */,
+				DC9288AE280CA45700B0A4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC92887A280CA45600B0A4B1 /* Project object */;
+}
