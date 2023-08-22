@@ -4,7 +4,7 @@
 - 💼 I’m Python Developer
 - 🖥️ Computer Forensics 
 - 📱 A bit of an iOS developer
-- 🎓 Student from Moscow (BMSTU)
+- 🎓 Student from Moscow (BMSTU & HSE)
 - 🏃‍♂ I like to run. Last distance was 12 kilometers.
 - 🎧 I like to listen to Illenium, Gryffin, Dabin, William Black
 - 📖 Last book I read: Triumphal Arch 
