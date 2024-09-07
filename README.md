@@ -6,5 +6,4 @@
 - 📱 A bit of an iOS developer (UIKit)
 - 🎓 Student from Moscow (BMSTU & HSE)
 - 🏃‍♂ I like to run. Last distance was 7 kilometers.
-- 🎧 I like to listen to Illenium, Gryffin, Dabin, William Black
 - 📖 Last book I read: Triumphal Arch 
